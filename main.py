@@ -1,12 +1,13 @@
 import pandas as pd
-
+import sys
 import evaluation
 import normalise
+from warnings import simplefilter
 
 
-def assignment_1(decimals, include_hist, display_plots, save_plots, img_dir):
+def assignment_1(decimals, include_hist, display_plots, save_plots, img_dir, csv_file):
     # Read fetal health data
-    df = pd.read_csv('../fetal_health_datasets/fetal_health.csv')
+    df = pd.read_csv(csv_file)
 
     # Clean / pre-process data
     # Drop severe_decelerations column after analysis of z sums
@@ -33,11 +34,14 @@ def normalise_fetal_health(df, include_hist, decimals):
 
 if __name__ == '__main__':
     # Main run configurations
-    decimals = 3
-    include_histogram_features = True
-    display_plots = False
-    save_plots = False
-    img_dir = 'plots/'
+    print("The run-time arguments are: %s" % sys.argv)
+    decimals = int(sys.argv[1])
+    include_histogram_features = eval(sys.argv[2])
+    display_plots = eval(sys.argv[3])
+    save_plots = eval(sys.argv[4])
+    img_dir = str(sys.argv[5])
+    csv_file = str(sys.argv[6])
 
-    # Run assignment 1 code
-    assignment_1(include_histogram_features, decimals, display_plots, save_plots, img_dir)
+    simplefilter(action="ignore", category=pd.errors.PerformanceWarning)
+
+    assignment_1(decimals, include_histogram_features, display_plots, save_plots, img_dir, csv_file)
