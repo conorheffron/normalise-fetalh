@@ -46,4 +46,4 @@ def evaluation_output(df):
 
     # Print top 7 features from max-min normalisation process
     print("------------------------------------------------")
-    print(ordered_z_sums)  # [0:7])
+    print(ordered_z_sums)
