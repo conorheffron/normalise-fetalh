@@ -1,11 +1,13 @@
-# normalise-fetalh
+## normalise-fetalh
 
-## Min-Max Normalisation of Fetal Health Data
+### Min-Max Normalisation of Fetal Health Data
 
-### See report in pdf format at: [report](https://conorheffron.github.io/normalise-fetalh/assignment-1.pdf)
+#### See report in pdf format at: [report](https://conorheffron.github.io/normalise-fetalh/assignment-1.pdf)
 
 ### Command Line (CLI) syntax: 
-`python main.py <rounding_decimals> <include_histogram_features?> <display_plots?> <save_plots?> <dir_for_plots_write/save> <csv_file_path_for_analysis>`
+```python
+python main.py <rounding_decimals> <include_histogram_features?> <display_plots?> <save_plots?> <dir_for_plots_write/save> <csv_file_path_for_analysis>
+```
 
 ```shell
 > python main.py 3 True False False "plots/" "/path/fetal_health.csv"
