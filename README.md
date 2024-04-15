@@ -1,3 +1,5 @@
+![Proof HTML](https://github.com/conorheffron/normalise-fetalh/actions/workflows/proof-html.yml/badge.svg)
+
 ## normalise-fetalh
 
 ### Min-Max Normalisation of Fetal Health Data
