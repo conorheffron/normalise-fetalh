@@ -1,0 +1,8 @@
+{
+  "name": "normalise-fetalh",
+  "version": "1.2.0",
+  "description": "Min-Max Normalisation of Fetal Health Data",
+  "dependencies": {
+    "@primer/css": "17.0.1"
+  }
+}
