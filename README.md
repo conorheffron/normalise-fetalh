@@ -4,7 +4,7 @@
 
 ### Min-Max Normalisation of Fetal Health Data
 
-#### See report in pdf format at: [report](https://conorheffron.github.io/normalise-fetalh/assignment-1.pdf)
+#### See report in pdf format at: [report](https://conorheffron.github.io/normalise-fetalh/report.pdf)
 
 ### Command Line (CLI) syntax: 
 ```python
