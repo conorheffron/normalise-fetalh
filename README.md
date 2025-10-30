@@ -1,6 +1,8 @@
-![Proof HTML](https://github.com/conorheffron/normalise-fetalh/actions/workflows/proof-html.yml/badge.svg)
+# normalise-fetalh
 
-## normalise-fetalh
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+
+![Proof HTML](https://github.com/conorheffron/normalise-fetalh/actions/workflows/proof-html.yml/badge.svg)
 
 ### Min-Max Normalisation of Fetal Health Data
 
